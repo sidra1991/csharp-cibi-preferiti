@@ -186,11 +186,11 @@ Console.WriteLine("--------------- se ho capito male la consegna sono un tonno g
 //}
 
 
-Console.WriteLine();
-Console.WriteLine("esercizio n6");
-Console.WriteLine();
-Console.WriteLine("-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.");
-Console.WriteLine();
+//Console.WriteLine();
+//Console.WriteLine("esercizio n6");
+//Console.WriteLine();
+//Console.WriteLine("-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.");
+//Console.WriteLine();
 
 //Snack6.In un array sono contenuti i nomi degli invitati alla festa del grande Gatsby.
 //Chiedi all’utente il suo nome e comunicagli se può partecipare o meno alla
@@ -227,39 +227,39 @@ Console.WriteLine();
 //    }
 //}
 
-Console.WriteLine();
-Console.WriteLine("esercizio n7");
-Console.WriteLine();
-Console.WriteLine("-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.");
-Console.WriteLine();
+//Console.WriteLine();
+//Console.WriteLine("esercizio n7");
+//Console.WriteLine();
+//Console.WriteLine("-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.");
+//Console.WriteLine();
 
 //Snack7.Crea un array vuoto.
 //Chiedi per 6 volte all’utente di inserire un numero, se è dispari inseriscilo
 //nell’array.
 
-int[] loveDis = new int[6];
-    Console.WriteLine("dammi " + 6 + " numeri");
-for (int i = 0; i < loveDis.Length; i++)
-{
+//int[] loveDis = new int[6];
+//    Console.WriteLine("dammi " + 6 + " numeri");
+//for (int i = 0; i < loveDis.Length; i++)
+//{
 
-    Console.WriteLine("ancora " + (6 - i));
+//    Console.WriteLine("ancora " + (6 - i));
 
-    int nn = Convert.ToInt32(Console.ReadLine());
+//    int nn = Convert.ToInt32(Console.ReadLine());
 
-    if (nn % 2 == 1)
-    {
-        loveDis[i] = nn; 
-    }
-}
+//    if (nn % 2 == 1)
+//    {
+//        loveDis[i] = nn; 
+//    }
+//}
 
-Console.WriteLine(" questi sono i tuoi numeri, non sono stati salvati i numeri con valore pari");
-for (int i = 0; i < loveDis.Length; i++)
-{
-    if (loveDis[i] != 0)
-    {
-        Console.WriteLine(loveDis[i]);
-    }
-}
+//Console.WriteLine(" questi sono i tuoi numeri, non sono stati salvati i numeri con valore pari");
+//for (int i = 0; i < loveDis.Length; i++)
+//{
+//    if (loveDis[i] != 0)
+//    {
+//        Console.WriteLine(loveDis[i]);
+//    }
+//}
 
 
 Console.WriteLine();
@@ -270,7 +270,28 @@ Console.WriteLine();
 
 //Snack8.Crea un array di numeri interi e fai la somma di tutti gli elementi che sono in
 //posizione dispari.
-//Ciclo while
+
+int[] myNumber = { 10,33,51,90,7,4,7,3,4,8,1,2,3,4,6 };
+int somDis = 0;
+
+for (int i = 0; i < myNumber.Length; i++)
+{
+    if (myNumber[i] % 2 == 1)
+    {
+        somDis= somDis + myNumber[i];
+    }
+}
+
+Console.WriteLine("la somma dei numeri inseriti nel array in posizioni dispari è " + somDis);
+
+
+
+Console.WriteLine();
+Console.WriteLine("esercizio n9");
+Console.WriteLine();
+Console.WriteLine("-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.");
+Console.WriteLine();
+
 //Snack9.Crea un array vuoto e chiedi all’utente un numero da inserire nell’array.
 //Continua a chiedere i numeri all’utente e a inserirli nell’array, fino a quando la
 //somma degli elementi è minore di 50.
