@@ -237,9 +237,33 @@ Console.WriteLine();
 //Chiedi per 6 volte all’utente di inserire un numero, se è dispari inseriscilo
 //nell’array.
 
+int[] loveDis = new int[6];
+    Console.WriteLine("dammi " + 6 + " numeri");
+for (int i = 0; i < loveDis.Length; i++)
+{
+
+    Console.WriteLine("ancora " + (6 - i));
+
+    int nn = Convert.ToInt32(Console.ReadLine());
+
+    if (nn % 2 == 1)
+    {
+        loveDis[i] = nn; 
+    }
+}
+
+Console.WriteLine(" questi sono i tuoi numeri, non sono stati salvati i numeri con valore pari");
+for (int i = 0; i < loveDis.Length; i++)
+{
+    if (loveDis[i] != 0)
+    {
+        Console.WriteLine(loveDis[i]);
+    }
+}
+
 
 Console.WriteLine();
-Console.WriteLine("esercizio n7");
+Console.WriteLine("esercizio n8");
 Console.WriteLine();
 Console.WriteLine("-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.");
 Console.WriteLine();
