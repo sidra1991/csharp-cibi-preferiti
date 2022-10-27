@@ -52,3 +52,77 @@ else
 }
 
 Console.WriteLine("--------------- se ho capito male la consegna sono un tonno gigante--------------");
+
+
+
+
+Console.WriteLine();
+Console.WriteLine("esercizio n2 snack 1");
+Console.WriteLine();
+Console.WriteLine("-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.");
+Console.WriteLine();
+//Istruzioni condizionali
+//Snack1.L’utente inserisce due numeri in successione.
+//Il software stampa il maggiore.
+string mag1;
+string mag2;
+
+Console.WriteLine("inserisci 2 numeri e ti dirò quale dei 2 è il maggiore.  ");
+ mag1 = Console.ReadLine();
+ mag2 = Console.ReadLine();
+
+if (Convert.ToInt32(mag1) > Convert.ToInt32(mag2))
+{
+    Console.WriteLine("il primo numero che hai inserito è il più grande");
+} if (Convert.ToInt32(mag1) < Convert.ToInt32(mag2))
+{
+    Console.WriteLine("il secondo numero che hai inserito è il più grande");
+} else
+{
+    Console.WriteLine("non vale non èra scritto di pensare anche a situazoioni diverse, stai barndo");
+}
+
+//Console.WriteLine();
+//Console.WriteLine("esercizio n2")
+//Console.WriteLine();
+//Console.WriteLine("-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.");
+//Console.WriteLine();
+//Snack2.L’utente inserisce due parole in successione.
+//Il software stampa prima la parola più corta, poi la parola più lunga.
+//Ciclo for
+//Snack3.Il software deve chiedere per 10 volte all’utente di inserire un numero.
+//Il programma stampa la somma di tutti i numeri inseriti.
+//Snack4.Calcola la somma e la media dei numeri da 2 a 10.
+//Operatore modulo
+//Snack5.Il software chiede all’utente di inserire un numero. Se il numero inserito è pari,
+//stampa il numero, se è dispari, stampa il numero successivo.
+//Array
+//Snack6.In un array sono contenuti i nomi degli invitati alla festa del grande Gatsby.
+//Chiedi all’utente il suo nome e comunicagli se può partecipare o meno alla
+//festa.
+//Snack7.Crea un array vuoto.
+//Chiedi per 6 volte all’utente di inserire un numero, se è dispari inseriscilo
+//nell’array.
+//Snack8.Crea un array di numeri interi e fai la somma di tutti gli elementi che sono in
+//posizione dispari.
+//Ciclo while
+//Snack9.Crea un array vuoto e chiedi all’utente un numero da inserire nell’array.
+//Continua a chiedere i numeri all’utente e a inserirli nell’array, fino a quando la
+//somma degli elementi è minore di 50.
+//Random
+//Snack10.Fai inserire un numero, che chiameremo N, all’utente.
+//Genera N array, ognuno formato da 10 numeri casuali tra 1 e 100.
+//Ogni volta che ne crei uno, stampalo a schermo.
+
+
+//Console.WriteLine();
+//Console.WriteLine("esercizio n2")
+//Console.WriteLine();
+//Console.WriteLine("-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.");
+//Console.WriteLine();
+
+//Console.WriteLine();
+//Console.WriteLine("esercizio n2")
+//Console.WriteLine();
+//Console.WriteLine("-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.");
+//Console.WriteLine();
