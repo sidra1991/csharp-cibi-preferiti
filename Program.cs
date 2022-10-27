@@ -149,9 +149,38 @@ Console.WriteLine("-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.");
 Console.WriteLine();
 //Snack4.Calcola la somma e la media dei numeri da 2 a 10.
 //Operatore modulo
+
+int[] numMed = new int[8];
+int som = 0;
+
+for (int i = 2; i <= 10; i++)
+{
+    som = som + i;
+}
+
+int med = som / 8;
+
+Console.WriteLine(" la somma dei numeri da 2 a 8 è " + som + " mentre la media è " + med);
+
+
+
+Console.WriteLine();
+Console.WriteLine("esercizio n5");
+Console.WriteLine();
+Console.WriteLine("-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.");
+Console.WriteLine();
+
 //Snack5.Il software chiede all’utente di inserire un numero. Se il numero inserito è pari,
 //stampa il numero, se è dispari, stampa il numero successivo.
 //Array
+
+
+Console.WriteLine();
+Console.WriteLine("esercizio n6");
+Console.WriteLine();
+Console.WriteLine("-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.");
+Console.WriteLine();
+
 //Snack6.In un array sono contenuti i nomi degli invitati alla festa del grande Gatsby.
 //Chiedi all’utente il suo nome e comunicagli se può partecipare o meno alla
 //festa.
