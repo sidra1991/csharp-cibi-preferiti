@@ -164,26 +164,26 @@ Console.WriteLine("--------------- se ho capito male la consegna sono un tonno g
 
 
 
-Console.WriteLine();
-Console.WriteLine("esercizio n5");
-Console.WriteLine();
-Console.WriteLine("-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.");
-Console.WriteLine();
+//Console.WriteLine();
+//Console.WriteLine("esercizio n5");
+//Console.WriteLine();
+//Console.WriteLine("-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.");
+//Console.WriteLine();
 
 //Snack5.Il software chiede all’utente di inserire un numero. Se il numero inserito è pari,
 //stampa il numero, se è dispari, stampa il numero successivo.
 //Array
 
-Console.WriteLine("inserisci un numero");
-string utNum = Console.ReadLine();
+//Console.WriteLine("inserisci un numero");
+//string utNum = Console.ReadLine();
 
-if ( Convert.ToInt32(utNum) % 2 == 0)
-{
-    Console.WriteLine( "è pari quindi eccoti il tuo numero " + utNum);
-} else
-{
-    Console.WriteLine( "è dispari non mi piace quindi ora è " + (Convert.ToInt32(utNum) + 1));
-}
+//if ( Convert.ToInt32(utNum) % 2 == 0)
+//{
+//    Console.WriteLine( "è pari quindi eccoti il tuo numero " + utNum);
+//} else
+//{
+//    Console.WriteLine( "è dispari non mi piace quindi ora è " + (Convert.ToInt32(utNum) + 1));
+//}
 
 
 Console.WriteLine();
@@ -195,9 +195,55 @@ Console.WriteLine();
 //Snack6.In un array sono contenuti i nomi degli invitati alla festa del grande Gatsby.
 //Chiedi all’utente il suo nome e comunicagli se può partecipare o meno alla
 //festa.
+
+//string[] name = { "anthony", "Gianluca", "Giuseppe", "Paolo" };
+
+//Console.WriteLine("devo vedere se sei tra gli invitati dimmi il tuo nome");
+
+//string utName = Console.ReadLine();
+
+//bool passed = false;
+
+//for (int i = 0; i < name.Length; i++)
+//{
+//    if (name[i] == utName)
+//    {
+//        Console.WriteLine("ben arrivato " + utName + " ti stavamo aspettando");
+//        passed = true;
+//    }
+//}
+
+//if (passed == false)
+//{
+//    Console.WriteLine("mi spiace non sei tra i partecipanti vuoi guardare la lista ? si o no?");
+//    string list = Console.ReadLine();
+
+//    if (list == "si")
+//    {
+//        for (int i = 0; i < name.Length; i++)
+//        {
+//            Console.WriteLine(name[i]);
+//        }
+//    }
+//}
+
+Console.WriteLine();
+Console.WriteLine("esercizio n7");
+Console.WriteLine();
+Console.WriteLine("-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.");
+Console.WriteLine();
+
 //Snack7.Crea un array vuoto.
 //Chiedi per 6 volte all’utente di inserire un numero, se è dispari inseriscilo
 //nell’array.
+
+
+Console.WriteLine();
+Console.WriteLine("esercizio n7");
+Console.WriteLine();
+Console.WriteLine("-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.");
+Console.WriteLine();
+
 //Snack8.Crea un array di numeri interi e fai la somma di tutti gli elementi che sono in
 //posizione dispari.
 //Ciclo while
