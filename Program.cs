@@ -271,18 +271,18 @@ Console.WriteLine();
 //Snack8.Crea un array di numeri interi e fai la somma di tutti gli elementi che sono in
 //posizione dispari.
 
-int[] myNumber = { 10,33,51,90,7,4,7,3,4,8,1,2,3,4,6 };
-int somDis = 0;
+//int[] myNumber = { 10,33,51,90,7,4,7,3,4,8,1,2,3,4,6 };
+//int somDis = 0;
 
-for (int i = 0; i < myNumber.Length; i++)
-{
-    if (myNumber[i] % 2 == 1)
-    {
-        somDis= somDis + myNumber[i];
-    }
-}
+//for (int i = 0; i < myNumber.Length; i++)
+//{
+//    if (myNumber[i] % 2 == 1)
+//    {
+//        somDis= somDis + myNumber[i];
+//    }
+//}
 
-Console.WriteLine("la somma dei numeri inseriti nel array in posizioni dispari è " + somDis);
+//Console.WriteLine("la somma dei numeri inseriti nel array in posizioni dispari è " + somDis);
 
 
 
@@ -296,6 +296,38 @@ Console.WriteLine();
 //Continua a chiedere i numeri all’utente e a inserirli nell’array, fino a quando la
 //somma degli elementi è minore di 50.
 //Random
+
+int[] sn9 = new int[51];
+int somSn9 = 0;
+
+Console.WriteLine("inserisci numeri finche non arrivi ad una somma adeguata");
+for (int i = 0; somSn9 < 50; i++)
+{
+    Console.WriteLine("inserisci");
+    int pp = Convert.ToInt32(Console.ReadLine());
+    if ( pp != 0)
+    {
+        sn9[i] = pp;
+        somSn9 = somSn9 + pp;
+    }
+}
+
+Console.WriteLine("hai superato la cifra richiesta e questi sono i tuoi numeri");
+
+for (int i = 0; i < sn9.Length; i++)
+{
+    if (sn9[i] != 0)
+    {
+        Console.WriteLine(sn9[i]);
+    }
+}
+
+Console.WriteLine();
+Console.WriteLine("esercizio n10");
+Console.WriteLine();
+Console.WriteLine("-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.");
+Console.WriteLine();
+
 //Snack10.Fai inserire un numero, che chiameremo N, all’utente.
 //Genera N array, ognuno formato da 10 numeri casuali tra 1 e 100.
 //Ogni volta che ne crei uno, stampalo a schermo.
