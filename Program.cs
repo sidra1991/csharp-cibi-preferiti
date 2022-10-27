@@ -82,16 +82,71 @@ if (Convert.ToInt32(mag1) > Convert.ToInt32(mag2))
     Console.WriteLine("non vale non èra scritto di pensare anche a situazoioni diverse, stai barndo");
 }
 
-//Console.WriteLine();
-//Console.WriteLine("esercizio n2")
-//Console.WriteLine();
-//Console.WriteLine("-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.");
-//Console.WriteLine();
+Console.WriteLine();
+Console.WriteLine("snack 2");
+Console.WriteLine();
+Console.WriteLine("-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.");
+Console.WriteLine();
 //Snack2.L’utente inserisce due parole in successione.
 //Il software stampa prima la parola più corta, poi la parola più lunga.
+string par1;
+string par2;
+
+Console.WriteLine("inserisci 2 parole e ti dirònquale è la più lunga.");
+par1 = Console.ReadLine();
+par2 = Console.ReadLine();
+
+if (par1.Length > par2.Length)
+{
+    Console.WriteLine(par1 + " è la parola più lunga");
+}
+if (par1.Length <par2.Length)
+{
+    Console.WriteLine(par2 + " è la parola più lunga");
+}
+else
+{
+    Console.WriteLine("hanno la stessa lunghezza");
+}
+
+
+Console.WriteLine();
+Console.WriteLine("snack 3");
+Console.WriteLine();
+Console.WriteLine("-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.");
+Console.WriteLine();
 //Ciclo for
 //Snack3.Il software deve chiedere per 10 volte all’utente di inserire un numero.
 //Il programma stampa la somma di tutti i numeri inseriti.
+
+int[] numeri = new int[10];
+Console.WriteLine("scrivi 10 numeri");
+int somma = 0;
+for (int i = 0; i < 10; i++)
+{
+    Console.WriteLine("scrivi il numero " + (i+1));
+    numeri[i] = Convert.ToInt32(Console.ReadLine());
+    somma = somma+numeri[i];
+}
+
+Console.WriteLine(" la somma dei tuoi numeri è " + somma + "vuoi rivedere i tuoi numeri? si o no?" );
+
+string vista = Console.ReadLine();
+
+if (vista == "si")
+{
+    for (int i = 0; i < numeri.Length ; i++)
+    {
+        Console.WriteLine("questo è il " + (i + 1)  + "° numero " + numeri[i]);
+    }
+}
+
+
+Console.WriteLine();
+Console.WriteLine("esercizio n4");
+Console.WriteLine();
+Console.WriteLine("-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.");
+Console.WriteLine();
 //Snack4.Calcola la somma e la media dei numeri da 2 a 10.
 //Operatore modulo
 //Snack5.Il software chiede all’utente di inserire un numero. Se il numero inserito è pari,
@@ -113,16 +168,3 @@ if (Convert.ToInt32(mag1) > Convert.ToInt32(mag2))
 //Snack10.Fai inserire un numero, che chiameremo N, all’utente.
 //Genera N array, ognuno formato da 10 numeri casuali tra 1 e 100.
 //Ogni volta che ne crei uno, stampalo a schermo.
-
-
-//Console.WriteLine();
-//Console.WriteLine("esercizio n2")
-//Console.WriteLine();
-//Console.WriteLine("-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.");
-//Console.WriteLine();
-
-//Console.WriteLine();
-//Console.WriteLine("esercizio n2")
-//Console.WriteLine();
-//Console.WriteLine("-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.");
-//Console.WriteLine();
