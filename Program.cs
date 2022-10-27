@@ -25,7 +25,7 @@ using System;
 //Buon lavoro.
 
 //1#
-string[] prefiteFood = { "lumache al sugo", "trippa al sugo ", "polmoni fritti", "polenta", "cozze", "totani alla piastra", "sushi" };
+string[] prefiteFood = { "lumache al sugo", "trippa al sugo ", "polmoni fritti", "polenta", "cozze", "totani alla piastra", "sushi", "pasta ai funghi porcini" };
 
 Console.WriteLine( "la classifica è composta da " + prefiteFood.Length + "elementi");
 
@@ -45,6 +45,10 @@ if (prefiteFood.Length % 2 == 1)
 }
 else
 {
-    Console.WriteLine("sto pensando a come prendere dinamicamente 2 elementi nel mezzo con un array di lunghezza pari");
+    int middle1 = prefiteFood.Length / 2;
+    int middle2 = middle1 + 1;
+
+    Console.WriteLine("essendo una classifica con un numero di elementi pari, i due elementi di mezzo sono: 1 " + prefiteFood[middle1] + " e 2 " + prefiteFood[middle2]);
 }
-   
+
+Console.WriteLine("--------------- se ho capito male la consegna sono un tonno gigante--------------");
