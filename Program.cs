@@ -56,111 +56,111 @@ Console.WriteLine("--------------- se ho capito male la consegna sono un tonno g
 
 
 
-Console.WriteLine();
-Console.WriteLine("esercizio n2 snack 1");
-Console.WriteLine();
-Console.WriteLine("-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.");
-Console.WriteLine();
+//Console.WriteLine();
+//Console.WriteLine("esercizio n2 snack 1");
+//Console.WriteLine();
+//Console.WriteLine("-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.");
+//Console.WriteLine();
 //Istruzioni condizionali
 //Snack1.L’utente inserisce due numeri in successione.
 //Il software stampa il maggiore.
-string mag1;
-string mag2;
+//string mag1;
+//string mag2;
 
-Console.WriteLine("inserisci 2 numeri e ti dirò quale dei 2 è il maggiore.  ");
- mag1 = Console.ReadLine();
- mag2 = Console.ReadLine();
+//Console.WriteLine("inserisci 2 numeri e ti dirò quale dei 2 è il maggiore.  ");
+// mag1 = Console.ReadLine();
+// mag2 = Console.ReadLine();
 
-if (Convert.ToInt32(mag1) > Convert.ToInt32(mag2))
-{
-    Console.WriteLine("il primo numero che hai inserito è il più grande");
-} if (Convert.ToInt32(mag1) < Convert.ToInt32(mag2))
-{
-    Console.WriteLine("il secondo numero che hai inserito è il più grande");
-} else
-{
-    Console.WriteLine("non vale non èra scritto di pensare anche a situazoioni diverse, stai barndo");
-}
+//if (Convert.ToInt32(mag1) > Convert.ToInt32(mag2))
+//{
+//    Console.WriteLine("il primo numero che hai inserito è il più grande");
+//} if (Convert.ToInt32(mag1) < Convert.ToInt32(mag2))
+//{
+//    Console.WriteLine("il secondo numero che hai inserito è il più grande");
+//} else
+//{
+//    Console.WriteLine("non vale non èra scritto di pensare anche a situazoioni diverse, stai barndo");
+//}
 
-Console.WriteLine();
-Console.WriteLine("snack 2");
-Console.WriteLine();
-Console.WriteLine("-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.");
-Console.WriteLine();
+//Console.WriteLine();
+//Console.WriteLine("snack 2");
+//Console.WriteLine();
+//Console.WriteLine("-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.");
+//Console.WriteLine();
 //Snack2.L’utente inserisce due parole in successione.
 //Il software stampa prima la parola più corta, poi la parola più lunga.
-string par1;
-string par2;
+//string par1;
+//string par2;
 
-Console.WriteLine("inserisci 2 parole e ti dirònquale è la più lunga.");
-par1 = Console.ReadLine();
-par2 = Console.ReadLine();
+//Console.WriteLine("inserisci 2 parole e ti dirònquale è la più lunga.");
+//par1 = Console.ReadLine();
+//par2 = Console.ReadLine();
 
-if (par1.Length > par2.Length)
-{
-    Console.WriteLine(par1 + " è la parola più lunga");
-}
-if (par1.Length <par2.Length)
-{
-    Console.WriteLine(par2 + " è la parola più lunga");
-}
-else
-{
-    Console.WriteLine("hanno la stessa lunghezza");
-}
+//if (par1.Length > par2.Length)
+//{
+//    Console.WriteLine(par1 + " è la parola più lunga");
+//}
+//if (par1.Length <par2.Length)
+//{
+//    Console.WriteLine(par2 + " è la parola più lunga");
+//}
+//else
+//{
+//    Console.WriteLine("hanno la stessa lunghezza");
+//}
 
 
-Console.WriteLine();
-Console.WriteLine("snack 3");
-Console.WriteLine();
-Console.WriteLine("-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.");
-Console.WriteLine();
+//Console.WriteLine();
+//Console.WriteLine("snack 3");
+//Console.WriteLine();
+//Console.WriteLine("-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.");
+//Console.WriteLine();
 //Ciclo for
 //Snack3.Il software deve chiedere per 10 volte all’utente di inserire un numero.
 //Il programma stampa la somma di tutti i numeri inseriti.
 
-int[] numeri = new int[10];
-Console.WriteLine("scrivi 10 numeri");
-int somma = 0;
-for (int i = 0; i < 10; i++)
-{
-    Console.WriteLine("scrivi il numero " + (i+1));
-    numeri[i] = Convert.ToInt32(Console.ReadLine());
-    somma = somma+numeri[i];
-}
+//int[] numeri = new int[10];
+//Console.WriteLine("scrivi 10 numeri");
+//int somma = 0;
+//for (int i = 0; i < 10; i++)
+//{
+//    Console.WriteLine("scrivi il numero " + (i+1));
+//    numeri[i] = Convert.ToInt32(Console.ReadLine());
+//    somma = somma+numeri[i];
+//}
 
-Console.WriteLine(" la somma dei tuoi numeri è " + somma + "vuoi rivedere i tuoi numeri? si o no?" );
+//Console.WriteLine(" la somma dei tuoi numeri è " + somma + "vuoi rivedere i tuoi numeri? si o no?" );
 
-string vista = Console.ReadLine();
+//string vista = Console.ReadLine();
 
-if (vista == "si")
-{
-    for (int i = 0; i < numeri.Length ; i++)
-    {
-        Console.WriteLine("questo è il " + (i + 1)  + "° numero " + numeri[i]);
-    }
-}
+//if (vista == "si")
+//{
+//    for (int i = 0; i < numeri.Length ; i++)
+//    {
+//        Console.WriteLine("questo è il " + (i + 1)  + "° numero " + numeri[i]);
+//    }
+//}
 
 
-Console.WriteLine();
-Console.WriteLine("esercizio n4");
-Console.WriteLine();
-Console.WriteLine("-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.");
-Console.WriteLine();
+//Console.WriteLine();
+//Console.WriteLine("esercizio n4");
+//Console.WriteLine();
+//Console.WriteLine("-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.");
+//Console.WriteLine();
 //Snack4.Calcola la somma e la media dei numeri da 2 a 10.
 //Operatore modulo
 
-int[] numMed = new int[8];
-int som = 0;
+//int[] numMed = new int[8];
+//int som = 0;
 
-for (int i = 2; i <= 10; i++)
-{
-    som = som + i;
-}
+//for (int i = 2; i <= 10; i++)
+//{
+//    som = som + i;
+//}
 
-int med = som / 8;
+//int med = som / 8;
 
-Console.WriteLine(" la somma dei numeri da 2 a 8 è " + som + " mentre la media è " + med);
+//Console.WriteLine(" la somma dei numeri da 2 a 8 è " + som + " mentre la media è " + med);
 
 
 
@@ -173,6 +173,17 @@ Console.WriteLine();
 //Snack5.Il software chiede all’utente di inserire un numero. Se il numero inserito è pari,
 //stampa il numero, se è dispari, stampa il numero successivo.
 //Array
+
+Console.WriteLine("inserisci un numero");
+string utNum = Console.ReadLine();
+
+if ( Convert.ToInt32(utNum) % 2 == 0)
+{
+    Console.WriteLine( "è pari quindi eccoti il tuo numero " + utNum);
+} else
+{
+    Console.WriteLine( "è dispari non mi piace quindi ora è " + (Convert.ToInt32(utNum) + 1));
+}
 
 
 Console.WriteLine();
