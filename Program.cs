@@ -279,7 +279,7 @@ int somDis = 0;
 
 for (int i = 0; i < myNumber.Length; i++)
 {
-    if (myNumber[i] % 2 == 1)
+    if (i % 2 == 1)
     {
         somDis = somDis + myNumber[i];
     }
